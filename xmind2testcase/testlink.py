@@ -14,7 +14,6 @@ from xml.etree.ElementTree import Element, SubElement, ElementTree, Comment
 Convert XMind fie to TestLink testcase xml file 
 """
 
-
 def xmind_to_testlink_xml_file(xmind_file, is_all_sheet=True):
     """Convert a XMind sheet to a testlink xml file"""
     xmind_file = get_absolute_path(xmind_file)
@@ -36,7 +35,6 @@ def xmind_to_testlink_xml_file(xmind_file, is_all_sheet=True):
         logging.info('convert XMind file(%s) to a testlink xml file(%s) successfully!', xmind_file, testlink_xml_file)
 
     return testlink_xml_file
-
 
 def testsuites_to_xml_content(testsuites):
     """Convert the testsuites to testlink xml file format"""
