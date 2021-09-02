@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>测试用例转换平台</title>
@@ -7,6 +8,7 @@
     <link rel="stylesheet" type="text/css" media="all" href="{{ url_for('static',filename='css/pure-min.css') }}">
     <link rel="stylesheet" type="text/css" media="all" href="{{ url_for('static',filename='css/custom.css') }}">
 </head>
+
 <body>
 <div class="splash-container">
     <div class="splash">
@@ -20,7 +22,7 @@
                         --> 点击这里导入 XMind 文件 <--
                     </label>
                     <input id="file" accept=".xmind" type="file" name="file" required/><br>
-                    <input type="submit" class="pure-button " value="开始转换"/>
+                    <input type="submit" class="pure-button " value="点击转换"/>
                 </form>
             </div>
             {% if records %}
