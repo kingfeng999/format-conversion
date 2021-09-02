@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>云歌测试用例转换平台</title>
+    <title>测试用例转换平台</title>
     <link rel="shortcut icon" href="{{ url_for('static',filename='favicon.ico') }}" type="image/x-icon"/>
     <link rel="stylesheet" type="text/css" media="all" href="{{ url_for('static',filename='css/pure-min.css') }}">
     <link rel="stylesheet" type="text/css" media="all" href="{{ url_for('static',filename='css/custom.css') }}">
@@ -11,13 +11,13 @@
 <div class="splash-container">
     <div class="splash">
         <h1>
-            云歌测试团队用例转化平台
+            测试团队用例转化平台
         </h1>
         <div class="splash-head">
             <div class="select-xmind splash-subhead">
                 <form method="post" enctype="multipart/form-data">
                     <label id="file-label" for="file">
-                        --> 点击这里导入您的 XMind 文件 <--
+                        --> 点击这里导入 XMind 文件 <--
                     </label>
                     <input id="file" accept=".xmind" type="file" name="file" required/><br>
                     <input type="submit" class="pure-button " value="开始转换"/>

@@ -1,6 +1,6 @@
 # XMind2TestCase
 
-> **XMind2TestCase** 工具，提供了一个高效测试用例设计的解决方案！
+> **XMind2TestCase** 工具，提供了一个高效测试用例设计的解决方案!
 
 
 ### 一、背景
@@ -615,3 +615,5 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
+
+
